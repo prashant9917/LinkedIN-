@@ -1,0 +1,428 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #e6e6cc;
+    }
+    
+    .main {
+        color: #0a66c2;
+        /* background-color: white; */
+        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 10px; */
+    }
+    
+    #searchbar {
+        background-color: rgba(153, 181, 236, 0.582);
+        border: none;
+        margin-left: 10px;
+        padding: 13px;
+        width: 250px;
+        height: 20px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0px;
+        /* box-shadow: 0px 0px 3px gray; */
+        background-color: white;
+    }
+    
+    .header>a {
+        text-align: center;
+    }
+    
+    .v1 {
+        border: 1.5px solid black;
+        height: 50px;
+    }
+    
+    .dropbtn {
+        border: none;
+        margin-left: 10px;
+        min-height: 10px;
+    }
+    
+    .profile-1>img {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin: 0;
+    }
+    
+    .dropbtn>i {
+        border: none;
+        font-size: 25px;
+        /* height: 50px;
+        width: 50px; */
+        /* border-radius: 50%; */
+    }
+    
+    .v2 {
+        margin-left: 15px;
+    }
+    
+    nav>.header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+    }
+    
+    nav>.header>a {
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav>.header>a:hover {
+        color: darkgray;
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+    
+    nav>.header>a:last-child {
+        margin-right: 70px;
+    }
+    
+    .main1 {
+        /* border: 2px solid black;f */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        padding: 0 150px;
+    }
+    
+    .left-panel {
+        /* border: 2px solid red; */
+        background-color: white;
+        border-radius: 7px 7px;
+        margin-right: 20px;
+        width: 28%;
+        height: 550px;
+        /* min-height: 50px; */
+    }
+    
+    .middle-panel {
+        /* border: 2px solid red; */
+        border-radius: 7px 7px;
+        /* background-color: white; */
+        width: 44%;
+        height: 550px;
+        /* float: left; */
+    }
+    
+    .right-panel {
+        /* border: 2px solid red; */
+        border-radius: 7px 7px;
+        margin-left: 20px;
+        width: 28%;
+        height: 550px;
+    }
+    
+    .left-penal-1 {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 54, 9, 0.7259278711484594) 35%, rgba(0, 212, 255, 1) 100%);
+        border-radius: 8px 0 0;
+        height: 90px;
+    }
+    
+    .image>img {
+        width: 70px;
+        height: 70px;
+        border: 3px solid whitesmoke;
+        border-radius: 50%;
+        margin-top: 55px;
+        margin-left: 100px;
+    }
+    
+    .a>h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    
+    .a>svg {
+        float: left;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    .item {
+        margin-right: 160px;
+        margin-top: 15px;
+        float: right;
+    }
+    
+    .p {
+        border: 1px solid rgba(126, 124, 124, 0.658);
+        border-radius: 10px;
+    }
+    
+    .left-panel-2 {
+        border: 1px solid rgba(126, 124, 124, 0.658);
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .left-panel-2>svg {
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .people {
+        margin-right: 145px;
+        margin-top: 10px;
+        float: right;
+        opacity: 0.8;
+    }
+    
+    .left-panel-2>p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: medium;
+        font-weight: 900;
+    }
+    
+    .middle-panel-1 {
+        background-color: white;
+        border: 1px solid white;
+        height: 100px;
+        border-radius: 8px;
+    }
+    
+    .profile {
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        margin-top: 8px;
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+    
+    .profile>img {
+        width: 35px;
+        height: 35px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    .post {
+        border: 1px solid rgba(43, 42, 42, 0.904);
+        border-radius: 20px;
+        float: right;
+        margin-top: 8px;
+        margin-right: 10px;
+        padding: 8px;
+        width: 365px;
+    }
+    
+    .sattu {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .sattu>a {
+        color: black;
+        text-decoration: none;
+        font-style: normal;
+        float: right;
+    }
+    
+    .sattu>a>svg {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        /* padding: 2px; */
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .middle-panel-2 {
+        background-color: white;
+        margin-top: 15px;
+    }
+    
+    .picture {
+        float: left;
+        /* border: 2px solid black; */
+        margin-top: 12px;
+        margin-right: px;
+        padding: 0;
+        /* width: 100%; */
+    }
+    
+    .picture>p {
+        float: right;
+        margin-right: 235px;
+        margin: 0;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .doted {
+        float: right;
+        margin-top: 55px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    
+    .pss>img {
+        width: 100%;
+    }
+    
+    .pss>p {
+        display: inline;
+        margin: 5px;
+        margin-left: 10px;
+        /* padding: 5px; */
+    }
+    
+    .pss>p>i {
+        margin-right: 2px;
+        padding: 2px;
+    }
+    
+    .down {
+        border: 1px solid white;
+        background-color: white;
+        margin-top: 20px;
+    }
+    /* .picture1 {
+        width: 430px;
+    } */
+    
+    .picture1>img {
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .picture1>p {
+        float: left;
+        /* margin-right: 235px; */
+        margin-top: 5px;
+        /* padding: 10px;
+        width: 300px; */
+        /* float: left;
+        margin-right: 240px; */
+    }
+    
+    .dotted3 {
+        float: right;
+        margin-top: 5px;
+        margin-right: 10px;
+        font-size: 5px;
+        font-weight: 800;
+    }
+    
+    .a1 {
+        width: 32.5%;
+        display: block;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+    
+    .vdo1 {
+        margin-top: 150px;
+    }
+    
+    .vdo1>iframe {
+        width: 100%;
+    }
+    
+    .Linked {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        border: 1px solid rgba(153, 149, 149, 0.904);
+        border-radius: 7px 7px;
+    }
+    
+    .Linked>h3 {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+    
+    .Linked>ul {
+        margin-left: 40px;
+    }
+    
+    .Linked-2 {
+        border: 1px solid rgba(153, 149, 149, 0.904);
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 7px 7px;
+    }
+    
+    .Linked-2>ul {
+        margin-left: 40px;
+    }
+    
+    .Linked-3 {
+        margin-top: 10px;
+        border-radius: 7px 7px;
+        border: 1px solid rgba(153, 149, 149, 0.904);
+        background-color: white;
+    }
+    
+    .Linked-4 {
+        margin-top: 10px;
+    }
+    
+    .Linked-4>img {
+        margin-right: 10px;
+        /* margin-bottom: 20px; */
+        float: left;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .Linked-4>.lever-name {
+        float: right;
+        margin-right: 50px;
+    }
+    
+    .follow {
+        text-align: center;
+    }
+    
+    .follow>p {
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        width: 150px;
+        margin-left: 50px;
+    }
+    /* 
+.mix {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    width: 20px;
+    height: 10px;
+    margin: 20px 50px 0 10px;
+} */

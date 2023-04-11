@@ -1,2 +1,2 @@
-# LinkedIN-
-Create a new Linked in page
+# LinkedInPage
+ Create a linkedin page
